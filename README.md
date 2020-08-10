@@ -21,15 +21,35 @@ District Summary after adjustment:
 
 **How is the school summary affected?**
 
+School Summary prior to adjustment on Thomas High School:
+
+![](Pictures/school_summary.PNG) 
+
+School Summary after adjustment: 
+
+![](Pictures/school_summary_badthomas.PNG) 
+
 **How does replacing the ninth graders' math and reading scores affect Thomas High School's performance relative to the other schools?** 
 
 **How does repacing the ninth-grade scores affect the following:**
 
   - **Math and reading scores by grade:** 
+      
+  ![](Pictures/math_bygrade.PNG) 
+  ![](Pictures/math_bygrade_badthomas.PNG) 
+  
   - **Scores by school spending:**
+  ![](Pictures/spending_ranges.PNG) 
+  ![](Pictures/spending_ranges_badthomas.PNG) 
+  
   - **Scores by school size:**
+  ![](Pictures/size_ranges.PNG) 
+  ![](Pictures/size_ranges_badthomas.PNG)
+  
   - **Scores by school type:**
-
+  ![](Pictures/school_type.PNG) 
+  ![](Pictures/school_type_badthomas.PNG)
+  
 ## Election-Audit Summary
 
 To the election commission, the above script can be modified in order to analyze data for any given election. For example, the counties can be changed to states, and the candidates may be presidential candidates. We can then utilize a modified version of the script to capture election results for presidential elections instead of congressional elections. In a school election, where the candidate who receives the most popular vote becomes president and the candidate with the second most number of votes becomes vice president, this script can also be modified to address this need. We can modify the output to display both the winner and the runner-up and allocate the president and vice president title based on candidate vote counts accordingly. 
