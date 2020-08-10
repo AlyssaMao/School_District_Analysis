@@ -3,7 +3,7 @@
 ## Overview of Project
 
 ### Purpose
-The purpose of the school district analysis is to evaluate 15 schools for a variety of factors including but not limited to average student scores for reading/math, average student spending, type of school, performance by grade level, etc. 
+The purpose of the school district analysis is to evaluate 15 schools for a variety of factors including but not limited to average student scores for reading/math, average student spending, type of school, performance by grade level, etc. Because the school board determined there's reasonable suspicion that the 9th grade Thomas High School's reading/math scores may have been manipulated, we have been asked in this exercise to alter the scores for Thomas High School's 9th graders to NaN and then evaluate the impact that it has on summary results. 
 
 ## Results
 
@@ -11,7 +11,12 @@ The purpose of the school district analysis is to evaluate 15 schools for a vari
 
 **How is the district summary affected?**
 
-![asdf](Pictures/district_summary.PNG) 
+*District Summary prior to adjustment on Thomas High School
+[]![(Pictures/district_summary.PNG) 
+
+*District Summary after adjustment
+[]![(Pictures/district_summary_nothomas.PNG) 
+
 **How is the school summary affected?**
 
 **How does replacing the ninth graders' math and reading scores affect Thomas High School's performance relative to the other schools?** 
