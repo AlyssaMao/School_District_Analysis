@@ -11,11 +11,13 @@ The purpose of the school district analysis is to evaluate 15 schools for a vari
 
 **How is the district summary affected?**
 
-*District Summary prior to adjustment on Thomas High School
+*District Summary prior to adjustment on Thomas High School*
+
 ![1][(Pictures/district_summary.PNG) 
 
-*District Summary after adjustment
-[2]![(Pictures/district_summary_nothomas.PNG) 
+*District Summary after adjustment*
+
+![1][(Pictures/district_summary_nothomas.PNG) 
 
 **How is the school summary affected?**
 
