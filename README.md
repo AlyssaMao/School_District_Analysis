@@ -11,6 +11,8 @@ The purpose of the school district analysis is to evaluate 15 schools for a vari
 
 **How is the district summary affected?**
 
+The district summary became slightly lower on average math score, average reading score, % Passing Math, % Passing Reading, and % Overall Passing after we replaced Thomas High School's 9th graders' reading and math scores to NaN. See pictures below for detail. 
+
 District Summary prior to adjustment on Thomas High School:
 
 ![](Pictures/district_summary.PNG)  
@@ -21,35 +23,45 @@ District Summary after adjustment:
 
 **How is the school summary affected?**
 
-School Summary prior to adjustment on Thomas High School:
+The school summary saw a tremendous percentage drop in the percentage of students passing math and reading. The Average Math and Reading score for the school was also slightly reduced. See the images in the below section for picture references. 
+
+**How does replacing the ninth graders' math and reading scores affect Thomas High School's performance relative to the other schools?** 
+The school's, in terms of ranking of all schools, saw a tremendous drop in Thomas High School's standing. Prior to the adjustment, Thomas High School was ranked 2nd with a 90.94% overall passing percentage, but the school's overall passing dropped to 65.07% after the above stipulated adjustment explained in the purpose section of this README
+
+School standing prior to adjustment on Thomas High School:
 
 ![](Pictures/school_summary.PNG) 
 
-School Summary after adjustment: 
+School standing after adjustment: 
 
 ![](Pictures/school_summary_badthomas.PNG) 
 
-**How does replacing the ninth graders' math and reading scores affect Thomas High School's performance relative to the other schools?** 
 
 **How does repacing the ninth-grade scores affect the following:**
 
-  - **Math and reading scores by grade:** 
+  - **Math and reading scores by grade:** Math and reading scores for Thomas High School 9th graders are all "NaN" while 10th, 11th, 12th remains unaffected. See below picture depiction of math scores by grade before/after adjustment for Thomas High School. 
       
   ![](Pictures/math_bygrade.PNG) 
   ![](Pictures/math_bygrade_badthomas.PNG) 
   
-  - **Scores by school spending:**
+  - **Scores by school spending:** Scores by school spending ranges saw a reduction in % Passing Math and % Passing Reading for the $630-644 bin. 
+  
   ![](Pictures/spending_ranges.PNG) 
   ![](Pictures/spending_ranges_badthomas.PNG) 
   
-  - **Scores by school size:**
+  - **Scores by school size:** Scores by school size saw a reduction in % Passing Math and % Passing Reading for Medium (1000-2000) sized schools, indicating that Thomas High School falls within this particular bucket
+  
   ![](Pictures/size_ranges.PNG) 
   ![](Pictures/size_ranges_badthomas.PNG)
   
-  - **Scores by school type:**
+  - **Scores by school type:** Scores by school type saw a reduction in Charter school % Passing Math, % Passing Reading, and % Overall Passing, indicating that Thomas High School is a charter type school. 
+  
   ![](Pictures/school_type.PNG) 
   ![](Pictures/school_type_badthomas.PNG)
   
-## Election-Audit Summary
+## School District Analysis Summary
 
-To the election commission, the above script can be modified in order to analyze data for any given election. For example, the counties can be changed to states, and the candidates may be presidential candidates. We can then utilize a modified version of the script to capture election results for presidential elections instead of congressional elections. In a school election, where the candidate who receives the most popular vote becomes president and the candidate with the second most number of votes becomes vice president, this script can also be modified to address this need. We can modify the output to display both the winner and the runner-up and allocate the president and vice president title based on candidate vote counts accordingly. 
+  - Thomas High School's performance dropped from 2nd place for overall passing to 8th place
+  - Medium sized schools (1000 to 2000) had a percentage reduction in math, reading, and overall passing percentages 
+  - Schools that spent between $630 to $644 per student had a percentage reduction in math, reading, and overall passing percentages
+  - Charter schools had a percentage reduction in math, reading, and overall passing percentages
